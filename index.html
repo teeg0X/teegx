@@ -8,73 +8,78 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" class="main">
-    <div class="container-main">
-        <div class="container-calculator">
-            <h1 class="calc">Calculator</h1>
-
-           <div class="container-menu">
-
-            <div class="container-input">
-            <label for="#" class="label-input">Введите число A</label>
-            <input type="number" class="input1" id="inputA" placeholder="Select">
-            </div>
-
-            <div class="container-input">
-            <label for="#" class="label-input">Введите число B</label>
-            <input type="number" class="input2" id="inputB" placeholder="Select">
-            </div>
-
-           </div>
-
-        <div class="container-method-btn">
-
-        <div class="method">
-           <select id="method">
-            <option value="S">Сложить</option>
-            <option value="V">Вычесть</option>
-            <option value="Y">Умножить</option>
-            <option value="D">Разделить</option>
-           </select>
-        </div>
-
-        <div class="btn">
-            <button class="btn-method" id="btn-m">Рассчитать</button>
-        </div>
-
-        </div>
-
-        <div class="container-value">
-            <a href="#" id="btn-reset" class="btn-reset">Reset</a>
-        </div>
-
-        <div class="container-text">
-            <h1 class="text" id="text"></h1>
-        </div>
-
-        <div class="container-history">
-            <textarea id="history" cols="30" rows="10"></textarea>
-            <div class="reset-h">
-            <a href="#" id="btn-history" class="r-h">Reset history</a>
+    <form action="#">
+        <div class="container-save">
+            <div class="save">
+            <p>Your info is save!</p>
             </div>
         </div>
 
-        <div class="container-transition">
-            <input type="number" id="position-t" step="10">
-            <input type="number" id="position-l">
+        <div class="container-main">
+             <div class="container-menu">
+                <h1>Your basic info</h1>
+        <label for="name" class="header">Name</label>
+        <input type="text" id="name" class="student">
+
+        <label for="email" class="header">Email</label>
+        <input type="email" id="email" class="student">
+
+        <label for="password" class="header">Password</label>
+        <input type="password" id="password" class="student">
+
+       <label for="#" class="header">Age:</label>
+            <div class="block_radio1">
+            <input type="radio" class="radio" name="user_age"><label for="#">Under 16</label>
+            </div>
+            <div class="block_radio2">
+            <input type="radio" class="radio" name="user_age"><label for="#">Order 16</label>
+            </div>
+
         </div>
 
-        <div class="container-body_color">
-            <select name="" id="color">
-                <option value="black" class="blacktema">Темная тема</option>
-                <option value="white" class="whitetema">Светлая тема</option>
+            
+        <div class="container-profile">
+            <h1>Your profile</h1>
+            <label for="bio" class="bio">Biography</label>
+            <textarea name="" id="bio" class="bio"></textarea>
+
+            <label for="#" class="bio">Select courses</label>
+            <select id="courses" class="open_courses">
+                <optgroup label="Engineering">
+                    <option value="#">Computer Science Engineering</option>
+                    <option value="#">Electrical Engineering</option>
+                    <option value="#">Mechanical Engineering</option>
+                    <option value="#">Civil Engineering</option>
+                    <option value="#">Chemical Engineering</option>
+                  </optgroup>
+                  <optgroup label="Management">
+                    <option value="finance_management">Finance Management</option>
+                    <option value="technology_management">Technology</option>
+                    <option value="marketing_management">Marketing</option>
+                    <option value="business_administration">Business</option>     
+                  </optgroup>
             </select>
+
+                <div class="container_checkbox">
+                <input type="checkbox"  name="user_interest" class="checkbox"><label class="light" for="#">Engineering</label>
+                </div>
+                <div class="container_checkbox">
+                <input type="checkbox" name="user_interest" class="checkbox"><label class="light" for="#">Business</label>
+                </div>
+                <div class="container_checkbox">
+                <input type="checkbox" name="user_interest" class="checkbox"><label class="light" for="#">Law</label>
+                </div>
+
+                <div class="btn">
+                    <button>SUBMIT</button>
+                </div>
+        </div>
+    
         </div>
 
-        </div>
-    </div>
+        
     </form>
-  <script src="jquery-3.6.1.min.js"></script> 
-  <script src="index.js"></script> 
+   <script src="jquery-3.6.1.min.js"></script>
+   <script src="index.js"></script>
 </body>
 </html>

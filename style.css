@@ -1,191 +1,99 @@
 * {
-    border: 0;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    border: 0;
+}
+
+body {
+    background: -webkit-linear-gradient(90deg, #b1e7fe,#99e0fe,#b1e7fe);
+    background: linear-gradient(90deg, #b1e7fe,#99e0fe,#b1e7fe);
+    color: aliceblue;
+}
+
+.student {
+    margin-top: 5px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.header {
+    margin-top: 10px;
 }
 
 .container-main {
-    width: 600px;
     margin: 0 auto;
-}
-
-.container-calculator {
-    background: -webkit-linear-gradient(1deg, #526d94,#ffffff);
-    background: linear-gradient(1deg, #526d94,#ffffff);
-    margin-top: 30px;
-    border-radius: 30px;
-    box-shadow: 0px 0px 14px -2px #000000;
-}
-
-.calc {
-    display: flex;
-    justify-content: center;
-}
-
-.calc {
-    color: rgb(5, 15, 53);
-}
-
-.label-input {
-    color: rgb(5, 15, 53);
+    width: 600px;
+    background: -webkit-linear-gradient(0deg, #696eff,#f6a9ff);background: linear-gradient(0deg, #696eff,#f6a9ff);
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 25px;
+    border-radius: 8px;
 }
 
 .container-menu {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 30px;
 }
 
-.input {
-    width: 70px;
+
+.radio {
+    width: 20px;
+    margin-top: 8px;
 }
 
-.container-input {
+.container-profile {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    padding: 30px;
 }
 
-.container-method-btn {
-    display: flex;
-    justify-content: space-around;
-}
-
-.container-value {
-    display: flex;
-    justify-content: center;
-}
-
-
-.container-transition input {
-    width: 150px;
-    border: 0;
-    border-radius: 8px;
-    height: 25px;
-    background-color: white;
-    color: rgb(31, 77, 132);
-
-
-}
-
-.container-transition {
-    display: flex;
-    justify-content: space-between;
-}
-
-.container-history {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.container-history textarea {
-    border: 1px solid gray;
-    border-radius: 8px;
-    height: 70px;
-    width: 300px;
-    margin: 0 auto;
+.bio {
     margin-top: 10px;
-}
-
-.container-body_color {
-    display: flex;
-    justify-content: center;
-}
-
-select {
-    border: 0;
     border-radius: 8px;
-    background-color: white;
-    width: 150px;
-    text-align: center;
-    height: 23px;
-    color: #2196f3;
 }
 
-.method {
-    margin-top: 20px;
-    margin-left: 5px;
-}
-
-input {
-    width: 150px;
-    height: 23px;
+.open_courses {
     border-radius: 8px;
-    text-align: center;
-    background-color: white;
-    color: #2196f3;
+    height: 20px;
+    margin-top: 5px;
 }
 
-.container-value {
-    padding-bottom: 20px;
+.checkbox {
+    width: 20px;
 }
 
-.container-value:hover {
-    color: #255784;
-    background: #2196f3;
-    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+.container_checkbox {
+    margin-top: 8px;
 }
 
-.container-value {
-    width: 150px;
-    height: 23px;
-    background-color: white;
+.btn button{
+    width: 100%;
+    background: -webkit-linear-gradient(90deg, #b1e7fe,#99e0fe,#b1e7fe);
+    background: linear-gradient(90deg, #b1e7fe,#99e0fe,#b1e7fe);
     border-radius: 8px;
-    margin: 0 auto;
-}
-
-.btn-reset {
-    text-decoration: none;
-}
-
-.btn button {
-    width: 150px;
-    height: 23px;
-    background-color: white;
-    border-radius: 8px;
-    margin-top: 15px;
-}
-
-button {
+    height: 35px;
     cursor: pointer;
-    color: #2196f3;
+    color: aliceblue;
+    margin-top: 25px;
 }
 
-.container-transition {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.container-body_color {
-    padding-bottom: 20px;
-}
-
-.reset-h {
-    margin: 0 auto;
-}
-
-.reset-h button {
-    width: 150px;
-    height: 23px;
-    background-color: white;
+.container-save {
+    display: none;
+    float: right;
+    background: -webkit-linear-gradient(0deg, #696eff,#f6a9ff);
+    background: linear-gradient(0deg, #696eff,#f6a9ff);
     border-radius: 8px;
-    margin-top: 10px;
+    width: 120px;
+    padding: 20px;
+    margin: 15px;
 }
 
-.reset-h {
-    background-color: white;
-    border-radius: 8px;
-    width: 150px;
-    height: 23px;
-    text-align: center;
-    margin-top: 10px;
-}
 
-.r-h {
-    text-decoration: none;
-    text-align: center;
-    
-}
+
+
+
+
+
+
 
 
