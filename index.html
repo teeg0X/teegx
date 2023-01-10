@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" class="main">
+    <div class="container-main">
+        <div class="container-calculator">
+            <h1 class="calc">Calculator</h1>
+
+           <div class="container-menu">
+
+            <div class="container-input">
+            <label for="#" class="label-input">Введите число A</label>
+            <input type="number" class="input1" id="inputA" placeholder="Select">
+            </div>
+
+            <div class="container-input">
+            <label for="#" class="label-input">Введите число B</label>
+            <input type="number" class="input2" id="inputB" placeholder="Select">
+            </div>
+
+           </div>
+
+        <div class="container-method-btn">
+
+        <div class="method">
+           <select id="method">
+            <option value="S">Сложить</option>
+            <option value="V">Вычесть</option>
+            <option value="Y">Умножить</option>
+            <option value="D">Разделить</option>
+           </select>
+        </div>
+
+        <div class="btn">
+            <button class="btn-method" id="btn-m">Рассчитать</button>
+        </div>
+
+        </div>
+
+        <div class="container-value">
+            <a href="#" id="btn-reset" class="btn-reset">Reset</a>
+        </div>
+
+        <div class="container-text">
+            <h1 class="text" id="text"></h1>
+        </div>
+
+        <div class="container-history">
+            <textarea id="history" cols="30" rows="10"></textarea>
+            <div class="reset-h">
+            <a href="#" id="btn-history" class="r-h">Reset history</a>
+            </div>
+        </div>
+
+        <div class="container-transition">
+            <input type="number" id="position-t" step="10">
+            <input type="number" id="position-l">
+        </div>
+
+        <div class="container-body_color">
+            <select name="" id="color">
+                <option value="black" class="blacktema">Темная тема</option>
+                <option value="white" class="whitetema">Светлая тема</option>
+            </select>
+        </div>
+
+        </div>
+    </div>
+    </form>
+  <script src="jquery-3.6.1.min.js"></script> 
+  <script src="index.js"></script> 
+</body>
+</html>
